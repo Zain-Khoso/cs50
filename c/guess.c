@@ -3,7 +3,7 @@
 
 int main()
 {
-    long number = get_int("Tell me a number to guess: ");
+    long number = get_long("Tell me a number to guess: ");
 
     int steps = 0;
     long guess = 0;
