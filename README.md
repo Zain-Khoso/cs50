@@ -1,3 +1,3 @@
-# C Learning
+# CS50
 
-This repo holds all the code I wrote learning C from Harward's CS50.
+This repo holds all the code I wrote while taking Harvard's CS50.
