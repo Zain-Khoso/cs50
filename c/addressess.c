@@ -33,8 +33,27 @@ int main(void)
     // you are telling the compiler to give you back the actually value
     // in memory at which the pointer in question is pointing
 
-    int *p = &n;
-    printf("%i", *p);
+    // int *p = &n;
+    // printf("%i", *p);
+
+    // char *
+    // In C this is how we define strings
+    // There is no data type named string
+    // There is a concept of string (a sequential order of char(s))
+    // We utilize that concept with this syntax of char *
+    // Making the "string" variable a pointer to the first character
+    // in the string in question
+
+    // char *s = "Hi!";
+    // printf("%s\n", s);
+
+    // The Pointer Arithmetic ( s[0] , s[1] , s[2] )
+    // syntax is just syntactical sugar for pointer arithmetic used below
+
+    char *s = "Hi!";
+    printf("%c", *(s + 0)); // printf("%c", s[0]);
+    printf("%c", *(s + 1)); // printf("%c", s[1]);
+    printf("%c", *(s + 2)); // printf("%c", s[2]);
 
     return 0;
 }
